@@ -1,0 +1,17 @@
+const marks = 40;
+
+if(marks > 80){
+    console.log("A+");
+}
+else if(marks > 70){
+    console.log("A");
+}
+else if(marks > 60){
+    console.log("B");
+}
+else if(marks > 50){
+    console.log("A");
+}
+else{
+    console.log("F");
+}
